@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Practising moment.js</title>
+    <script src="https://MomentJS.com/downloads/moment.js"></script>
+  </head>
+  <body>
+      <h1>Practising moment.js</h1>
+
+      <!-- solution 1 -->
+    <div id="solution1">
+      <h2>Solution 1</h2><br/>
+      <div style="font-size:25px" id="currentdate"></div>
+      <div style="font-size:25px" id="changeddate"></div>
+    </div>
+
+        <!-- solution2 -->
+    <div id="solution2">
+      <h2>Solution 2</h2><br/>
+      <div style="font-size:25px"> Enter Your Birthday</div> <br/>
+      <span style="font-size:25px">Date : </span>
+      <input id="bdaydate"></input> <br/>
+      <span style="font-size:25px">Month : </span>
+      <input id="bdaymonth" type="number"></input><br/><br/>
+      <input
+            id="button"
+            type="submit"
+            onclick="Calculate()"
+            value="Calculate"
+          /> <br/><br/>
+
+        <div style="font-size:25px" id="answerdiv"></div>
+
+    </div>
+
+    <!-- Solution 1 script -->
+    <script src="fiftyfive.js">
+    </script>
+
+      <!-- solution 2 script -->
+      <script src="myBirthday.js">
+    </script>
+
+  </body>
+</html>
